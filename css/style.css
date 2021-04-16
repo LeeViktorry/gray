@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.threecards .card img{
+    transition: .5s;
+}
+.threecards .card{
+    overflow: hidden;
+}
+.threecards .card:hover img{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+@media (max-width: 1052px){
+    .threecards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 991px){
+    .Card2{
+        margin-bottom: 50px;
+    }
+    .Card{
+        margin-bottom: 50px;
+    }
+
+}
